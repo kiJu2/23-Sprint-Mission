@@ -17,9 +17,23 @@
   --secondary-700: #374151;
   --secondary-800: #1f2937;
   --secondary-900: #111827;
+
+  /* --text-2xl: 700 24px/32px "Pretendard"; */
+
+  --text-lg: 700 16px/26px "Pretendard";
+  --text-2lg: 700 18px/26px "Pretendard";
+  --text-2xl: 700 24px/32px "Pretendard";
 }
 
 html,
 body {
   font-family: "Pretendard", sans-serif;
+  background-color: var(--bg-gray);
+  /* background-color: red; */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
