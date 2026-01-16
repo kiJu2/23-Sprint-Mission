@@ -1,3 +1,7 @@
+@import url("/styles/global.css");
+@import url("/styles/components/button.css");
+@import url("/styles/components/typography.css");
+
 /* Common */
 .gnb {
   width: 1120px;
@@ -9,52 +13,6 @@
   align-items: center;
   margin: 0px auto;
   justify-content: space-between;
-}
-
-.btn-small-48 {
-  padding: 12px 23px;
-  background-color: var(--primary-100);
-  border-radius: 8px;
-  color: var(--secondary-100);
-  vertical-align: middle;
-  text-align: center;
-
-  font: var(--text-lg);
-}
-
-.btn-small-48:hover {
-  background-color: var(--primary-200);
-}
-
-.btn-small-48:active {
-  background-color: var(--primary-300);
-}
-
-.btn-small-48:disabled {
-  background-color: var(--primary-400);
-}
-
-.btn-large {
-  padding: 16px 124px;
-  background-color: var(--primary-100);
-  border-radius: 40px;
-  color: var(--secondary-100);
-  vertical-align: middle;
-  text-align: center;
-
-  font: var(--text-lg);
-}
-
-.btn-large:hover {
-  background-color: var(--primary-200);
-}
-
-.btn-large:active {
-  background-color: var(--primary-300);
-}
-
-.btn-large:disabled {
-  background-color: var(--primary-400);
 }
 
 /* index.css */
@@ -105,7 +63,6 @@
 
   width: 988px;
   margin: 138px auto;
-  /* padding: 138px 0px; */
 
   background-color: var(--bg-gray);
 }
@@ -115,26 +72,11 @@
 }
 
 /* NOTE: HTML에 강하게 결합되어 있어서 유지보수 관점에서 구조적인 문제를 내포하고 있음 */
-
-.landing-section-content > span {
-  font: var(--text-2lg);
-  color: var(--primary-100);
-  font-weight: 800;
-}
-
 .landing-section-content > div {
   margin-top: 12px;
 }
 
-.landing-section-content > div > p {
-  font: var(--text-2xl);
-  color: var(--secondary-700);
-  font-weight: 500;
-}
-
 .landing-section-content > div > h2 {
-  /* font: var(--text-2xl);
-  color: var(--secondary-700); */
   margin-bottom: 24px;
 }
 

@@ -1,0 +1,65 @@
+/* @note: global.css를 import하지 않고 variables.css를 만들어서 관리하는게 좋지 않을까 ? */
+
+.text-md-medium {
+  font: var(--text-md-medium);
+}
+.text-lg-bold {
+  font: var(--text-lg-bold);
+}
+.text-lg-medium {
+  font: var(--text-lg-medium);
+}
+.text-lg-regular {
+  font: var(--text-lg-regular);
+}
+.text-2lg-bold {
+  font: var(--text-2lg-bold);
+}
+.text-2lg-semibold {
+  font: var(--text-2lg-semibold);
+}
+.text-2xl-bold {
+  font: var(--text-2xl-bold);
+}
+.text-2xl-medium {
+  font: var(--text-2xl-medium);
+}
+
+/* Color */
+.primary-100 {
+  color: var(--primary-100);
+}
+.primary-200 {
+  color: var(--primary-200);
+}
+.primary-300 {
+  color: var(--primary-300);
+}
+
+.secondary-100 {
+  color: var(--secondary-100);
+}
+.secondary-200 {
+  color: var(--secondary-200);
+}
+.secondary-300 {
+  color: var(--secondary-300);
+}
+.secondary-400 {
+  color: var(--secondary-400);
+}
+.secondary-500 {
+  color: var(--secondary-500);
+}
+.secondary-600 {
+  color: var(--secondary-600);
+}
+.secondary-700 {
+  color: var(--secondary-700);
+}
+.secondary-800 {
+  color: var(--secondary-800);
+}
+.secondary-900 {
+  color: var(--secondary-900);
+}
